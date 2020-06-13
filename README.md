@@ -1,5 +1,5 @@
 # ForeverNote_Truffle
-Truffle project for ForeverNote.
+Truffle project for ForeverNote contract.
 
 
 ## Network Settings.
@@ -8,7 +8,7 @@ you can specify network settings.
 This will add the network definition to the following file after it is built
 
 ~~~
-  MyProject/truffle-config.sj
+MyProject/truffle-config.sj
 ~~~
 
 ## Specify the deployment location
@@ -27,7 +27,8 @@ Specify the passphrase for deployment to Ropsten in the following file.
 .secret
 ~~~
 
-## The account to be used for deployment is specified in the network settings of build.sh.
+## The account for deployment.
+The account to be used for deployment is specified in the network settings of build.sh.
 
 ## Run the build
 The build will be executed by executing the following command.
@@ -37,10 +38,10 @@ $ ./build.sh
 ~~~
 
 ## Contract information file.
-If the build is successful, a file is created that contain the contract's information in the following places.
+If the build is successful, a contract information file will be created in the following location.
 
 ~~~
-./MyProject/contract-info.js
+MyProject/contract-info.js
 ~~~
 
 This file is used by the ForeverNote front-end program.
