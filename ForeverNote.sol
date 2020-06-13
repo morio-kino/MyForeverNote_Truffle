@@ -8,18 +8,18 @@ pragma experimental ABIEncoderV2;
 //contract ForeverNote is Ownable {
 contract ForeverNote {
     event Category(
-        address indexed _owner,  // 所有者
-        uint8   indexed _type,   // 種別 : 1:category1, 2:category2
-        uint32          _id,     // インデックスのID
-	uint64          _ctime,  // 作成時刻
-        string          _text    // インデックスの文字列
+        address indexed _owner,  // Owner
+        uint8   indexed _type,   // Category type : 1:main category, 2:subcategory
+        uint32          _id,     // Index ID
+	uint64          _ctime,  // Create time
+        string          _text    // Index text
     );
 
     event Note(
-        address indexed _owner,  // 所有者
-        uint32  indexed _category1, // インデックス1
-        uint32  indexed _category2, // インデックス2
-        string          _note    // メモ
+        address indexed _owner,     // Owner
+        uint32  indexed _category1, // main category
+        uint32  indexed _category2, // subcategory
+        string          _note       // Note
     );
 
 //    constructor(address _creator) public {

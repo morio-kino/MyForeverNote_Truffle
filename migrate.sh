@@ -1,9 +1,9 @@
-# truffleのパスを設定
+# Set the truffle path to the PATH environment variable.
 export PATH=`pwd`/node_modules/.bin:$PATH
 
 cd MyProject
 
-echo "### truffleのmigrateを実行します。"
+echo "### Run truffle migrate."
 truffle migrate --network ropsten
 #truffle migrate --network development
 
