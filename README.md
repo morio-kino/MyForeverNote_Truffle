@@ -32,3 +32,15 @@ Specify the passphrase for deployment to Ropsten in the following file.
 ## Run the build
 The build will be executed by executing the following command.
 
+~~~
+$ ./build.sh
+~~~
+
+## Contract information file.
+If the build is successful, a file is created that contain the contract's information in the following places.
+
+~~~
+./MyProject/contract-info.js
+~~~
+
+This file is used by the ForeverNote front-end program.
