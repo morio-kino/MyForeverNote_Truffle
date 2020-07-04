@@ -1,4 +1,4 @@
-[to Wiki](../wiki)
+[to Wiki](../../wiki)
 
 # MyForeverNote_Truffle
 Truffle project for MyForeverNote contract.
