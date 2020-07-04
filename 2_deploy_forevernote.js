@@ -1,7 +1,7 @@
-const ForeverNote = artifacts.require('./ForeverNote.sol')
+const MyForeverNote = artifacts.require('./MyForeverNote.sol')
 
 module.exports = deployer => {
-    deployer.deploy(ForeverNote).then(instance => {
+    deployer.deploy(MyForeverNote).then(instance => {
         console.log('=======================================');
         console.log('address:', JSON.stringify(instance.address));
         console.log('ABI:', JSON.stringify(instance.abi));
@@ -9,10 +9,10 @@ module.exports = deployer => {
 
         var  fs = require("fs");
         var info = '';
-        info += '// Address of ForeverNote contract.\n';
+        info += '// Address of MyForeverNote contract.\n';
         info += 'var addr = ' + JSON.stringify(instance.address) + ';\n';
         info += '\n';
-        info += '// ABI of ForeverNote contract.\n';
+        info += '// ABI of MyForeverNote contract.\n';
         info += 'var ABI = ' + JSON.stringify(instance.abi) + ';\n'
         try {
             fs.writeFileSync('contract-info.js', info);

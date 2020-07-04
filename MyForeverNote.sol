@@ -5,8 +5,8 @@ pragma experimental ABIEncoderV2;
 //import "openzeppelin-solidity/contracts/lifecycle/Destructible.sol";
 //import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
-//contract ForeverNote is Ownable {
-contract ForeverNote {
+//contract MyForeverNote is Ownable {
+contract MyForeverNote {
     event Category(
         address indexed _owner,  // Owner
         uint8   indexed _type,   // Category type : 1:main category, 2:subcategory

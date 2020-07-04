@@ -1,5 +1,5 @@
-# ForeverNote_Truffle
-Truffle project for ForeverNote contract.
+# MyForeverNote_Truffle
+Truffle project for MyForeverNote contract.
 
 
 ## Network Settings.
@@ -44,4 +44,4 @@ If the build is successful, a contract information file will be created in the f
 MyProject/contract-info.js
 ~~~
 
-This file is used by the ForeverNote front-end program.
+This file is used by the MyForeverNote front-end program.

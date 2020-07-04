@@ -44,7 +44,7 @@ truffle init
 sudo npm install truffle-hdwallet-provider
 
 # Copy the files.
-cp ../ForeverNote.sol contracts/.
+cp ../MyForeverNote.sol contracts/.
 cp ../2_deploy_forevernote.js migrations/.
 cp ../.secret .
 
